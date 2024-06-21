@@ -56,7 +56,20 @@ nav{
     background: transparent;
     outline: none;
 }
-
-.search-bar form button{
+.search-button{
+    padding: 0;
+    border: none;
+    background: none;
     
+}
+
+.search-button img{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.space{
+    flex: 1
 }
