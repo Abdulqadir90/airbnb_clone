@@ -73,3 +73,23 @@ nav{
 .space{
     flex: 1
 }
+
+
+.title{
+    margin: 50px ;
+}
+
+.pictures {
+    display: flex;           /* Enables Flexbox */
+    justify-content: center; /* Centers content horizontally */
+    gap: 50px;               /* Adds space between images */
+}
+
+.pictures div {
+    flex: 0 1 auto;          /*Prevents items from growing/shrinking*/
+}
+
+.pictures img {
+    width: 300px;            /* Sets a fixed width for the images */
+    height: auto;            /* Maintains aspect ratio */
+}
