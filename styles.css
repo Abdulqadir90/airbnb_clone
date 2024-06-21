@@ -90,6 +90,6 @@ nav{
 }
 
 .pictures img {
-    width: 300px;            /* Sets a fixed width for the images */
+    width: 250px;            /* Sets a fixed width for the images */
     height: auto;            /* Maintains aspect ratio */
 }
