@@ -80,16 +80,14 @@ nav{
 }
 
 .pictures {
-    display: flex;           /* Enables Flexbox */
-    justify-content: center; /* Centers content horizontally */
-    gap: 50px;               /* Adds space between images */
+    display: grid;         
+    grid-gap: 30px;            
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    margin: 75px;
+
 }
 
-.pictures div {
-    flex: 0 1 auto;          /*Prevents items from growing/shrinking*/
-}
-
-.pictures img {
-    width: 250px;            /* Sets a fixed width for the images */
-    height: auto;            /* Maintains aspect ratio */
+.pictures div img {
+    width: 100%;            
+    border-radius: 10px;
 }
