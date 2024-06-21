@@ -91,3 +91,22 @@ nav{
     width: 100%;            
     border-radius: 10px;
 }
+
+/* past experiences */
+
+.experiences{
+    display: grid;         
+    grid-gap: 30px;            
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    margin: 75px;
+
+
+}
+
+.experiences div img{
+    width: 100%;            
+    border-radius: 10px;
+}
+
+
+
