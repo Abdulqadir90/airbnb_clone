@@ -83,14 +83,19 @@ nav{
     display: grid;         
     grid-gap: 30px;            
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-    margin: 75px;
+    margin: 70px;
 
 }
 
 .pictures div img {
     width: 100%;            
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 80%;
+    object-fit: cover;
+   
 }
+
+
 
 /* past experiences */
 
