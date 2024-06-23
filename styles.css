@@ -82,10 +82,11 @@ nav{
 
 }
 
-.pictures div img {
+img {
     width: 100%;            
     border-radius: 20px;
-    height: 80%;
+    /* height: 80%; */
+    aspect-ratio: 1/1;
     object-fit: cover;
    
 }
@@ -100,16 +101,60 @@ nav{
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     margin: 75px;
 
-
+    /* display: flex;
+    flex-wrap: wrap;
+    margin: 75px; */
 }
 
-.experiences div img{
+/* .experiences div {
+   width: 300px;
+} */
+
+/* .experiences div img{
     width: 100%;            
     border-radius: 10px;
-}
+} */
 
 .title2{
     margin: 75px;
 }
 
+.nav-links2 {
+    display: flex;
+    column-gap: 10px;
+}
+
+.nav-links2 li {
+    display: block;
+    list-style: none;
+    margin: 40px 0px;
+}
+
+
+.nav-links2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+ text-align: center;
+}
+
+svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25px;
+    width: 25px;
+    fill: white;
+
+}
+.search{
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
 
