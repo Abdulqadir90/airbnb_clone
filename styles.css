@@ -44,6 +44,20 @@ nav{
  padding: 15px 15px 10px 40px;
 }
 
+.space :hover{
+    background-color: grey;
+}
+.space1 :hover{
+    background-color: grey;
+}
+.space2 :hover{
+    background-color: grey;
+}
+.space3 :hover{
+    background-color: grey;
+}
+
+
 .search-bar form{
     display: flex;
     flex-wrap: wrap;
