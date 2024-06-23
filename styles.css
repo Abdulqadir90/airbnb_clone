@@ -96,24 +96,25 @@ img {
 /* past experiences */
 
 .experiences{
-    display: grid;         
+    /* display: grid;         
     grid-gap: 30px;            
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-    margin: 75px;
-
-    /* display: flex;
-    flex-wrap: wrap;
     margin: 75px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 75px;
+    column-gap: 30px;
 }
 
-/* .experiences div {
+.experiences div {
    width: 300px;
-} */
+}
 
-/* .experiences div img{
+.experiences div img{
     width: 100%;            
     border-radius: 10px;
-} */
+}
 
 .title2{
     margin: 75px;
