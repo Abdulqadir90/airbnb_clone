@@ -14,8 +14,17 @@ nav{
 }
 
 .logo{
-    width: 130px;
-    cursor: pointer;
+    
+  display: block;
+  max-width:130px;
+  max-height: 100px;
+  /* width: auto;
+  height: auto; */
+    
+   
+    
+    
+  
 }
 
 .nav-links li{
@@ -104,6 +113,7 @@ img {
     aspect-ratio: 1/1;
     object-fit: cover;
    
+   
 }
 svg{
     position: absolute;
@@ -178,17 +188,22 @@ h2 {
 
 
 .nav-links3 {
-    display: flex;
-    column-gap: 50px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(6 ,minmax(0px, 1fr));
+    margin: 0px;
+    padding: 0px;
+
     
 
 }
 
 .nav-links3 li{
-    display: block;
+    /* display: block; */
     list-style: none;
-    margin: 10px;
+    margin: 0px;
+    padding: 0px;
+    
     
     
 }
