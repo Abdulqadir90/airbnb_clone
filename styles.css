@@ -26,8 +26,22 @@ nav{
 .globe-search {
     border: none;
     background: none;
-    /* padding: 0; */
+    position: relative;
+    right: 90px;
+    cursor: pointer;
+
 }
+
+.register-btn {
+    text-decoration: none ;
+    color: black;
+    position: relative;
+    left: 100px;
+    cursor: pointer;
+    
+    
+}
+
 .search1 img {
     width: 20px;
     height: 20px;
@@ -50,25 +64,50 @@ nav{
     text-decoration: none;
     color: inherit;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    position: relative;
+    left: 130px
+
 }
 
 .nav-links i {
     margin-right: 10px;
 }
 
-.register-btn{
-    text-decoration: none ;
-    color: black;
+
+
+.nav-links0 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links0 li {
+    margin-right: 10px;
+}
+
+.nav-links0 a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
 
 }
+
+.nav-links0 i {
+    margin-right: 10px;
+}
+
+
 
 .search-bar {
  width: 50%;
  margin: 10px auto;
  border: 1px solid black;
  border-radius: 50px;
- padding: 15px 15px 10px 40px;
+ padding: 15px 15px 10px 30px;
 }
 
 .space :hover{
