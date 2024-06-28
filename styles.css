@@ -23,6 +23,16 @@ nav{
   
 }
 
+.globe-search {
+    border: none;
+    background: none;
+    padding: 0;
+}
+.search1 img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+}
+
 
 .nav-links {
     list-style: none;
