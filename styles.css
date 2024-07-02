@@ -27,7 +27,7 @@ nav{
     border: none;
     background: none;
     position: relative;
-    right: 90px;
+    margin-right: -90px;
     cursor: pointer;
 
 }
@@ -40,6 +40,21 @@ nav{
     cursor: pointer;
     
     
+}
+
+.navigation-menu{
+    position: relative;
+    border: 1px solid grey;
+    height: 50px;
+    width: 90px;
+    border-radius: 20px;
+    margin-right: -50px auto;
+  
+
+    
+   
+    
+
 }
 
 .search1 img {
@@ -103,21 +118,24 @@ nav{
 
 
 .search-bar {
- width: 50%;
+ width: 55%;
  margin: 15px auto;
  border: 1px solid black;
  border-radius: 40px;
- padding: 15px 55px 10px 30px;
+ padding: 5px 55px 5px 30px;
  position: relative;
- bottom: 35px;
+ bottom: 45px;
 
 }
 
 .space :hover{
     background-color: grey;
+   
 }
+
 .space1 :hover{
     background-color: grey;
+    
 }
 .space2 :hover{
     background-color: grey;
@@ -129,18 +147,26 @@ nav{
 .vertical{
     border-left: solid grey;
     padding: 5px;
+    position: relative;
+    right: 10px;
     
 }
 
 .vertical2{
     border-left: solid grey;
     padding: 5px;
+    position: relative;
+    right: 40px;
+    
     
 }
 
 .vertical3{
     border-left: solid grey;
     padding: 5px;
+    position: relative;
+    right: 60px;
+    
     
 }
 
