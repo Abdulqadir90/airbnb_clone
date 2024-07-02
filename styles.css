@@ -27,7 +27,7 @@ nav{
     border: none;
     background: none;
     position: relative;
-    margin-right: -90px;
+    margin-right: -110px;
     cursor: pointer;
 
 }
@@ -36,7 +36,7 @@ nav{
     text-decoration: none ;
     color: black;
     position: relative;
-    left: 100px;
+    left: 120px;
     cursor: pointer;
     
     
@@ -46,7 +46,7 @@ nav{
     position: relative;
     border: 1px solid grey;
     height: 50px;
-    width: 90px;
+    width: 100px;
     border-radius: 20px;
     margin-right: -50px auto;
   
